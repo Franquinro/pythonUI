@@ -23,7 +23,7 @@
             margin-top: 1em;
             padding: 0.8em;
         }
-        
+
         .demo-container {
             width: 300px;
             margin: auto;
@@ -52,14 +52,14 @@
             padding: 2em;
             font-size: 1em;
         }
-      
-      #mensaje>span{
-        font-size: 1em;
-      }
-      
-      #progreso {
-        font-weight: bold;
-      }
+
+        #mensaje>span {
+            font-size: 1em;
+        }
+
+        #progreso {
+            font-weight: bold;
+        }
 
         @keyframes indeterminateAnimation {
             0% {
@@ -77,11 +77,11 @@
     </style>
     <script>
         function shuffleArray(array) {
-          for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-          }
-          return array;
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
         }
 
         var textos = [
@@ -96,9 +96,9 @@
             '<span class="badge bg-success"> <i class="fa-solid fa-wand-magic-sparkles"></i> Intuyendo </span> niveles para el próximo sondeo de tanques ... ',
             '<span class="badge bg-success"> <i class="fa-solid fa-bullhorn"></i> Verificación </span> cuádruple para evitar correos de Juan Carlos ... "'
         ];
-        
+
         textos = shuffleArray(textos);
-        
+
         var i = 0;
         setInterval(function() {
             document.getElementById("mensaje").innerHTML = textos[i];
@@ -122,6 +122,7 @@
             </div>
         </div>
         <div id="progreso" class="mt-4 p-3 bg-light rounded"> <i class="fa-solid fa-hourglass-start"></i> Iniciando Aplicación. ¡Espere!</div>
+        <div class="col-6 mx-auto"><button type="button" class="btn btn-outline-secondary" onclick="pywebview.api.hola();">Volcar de nuevo</button></div>
         <footer class="bg-dark bg-opacity-25 rounded-1 text-end text-secondary"> <i class="fa-regular fa-copyright"></i>Fco. Quintana</footer>
     </div>
 </body>
