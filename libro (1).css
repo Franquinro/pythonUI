@@ -1,0 +1,133 @@
+d {
+display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 200px;
+    position: relative;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.125);
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-color: #2196F3;
+}
+
+e {
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font-size: small;
+  width: 200px;
+  position: relative;
+  padding: 8px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-top-width: 0px;
+  -webkit-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;  
+  font-weight: 500;
+  color: rgba(0,0,0,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
+
+ln{
+	padding-left: 1em;
+}
+
+f{
+    color: #fff;
+    background-color: #2196f3;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+g{
+    color: #fff;
+    background-color: #9E9E9E;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+j {
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 200PX;
+    position: relative;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.125);
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-color: #F44336;
+}
+
+k {
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font-size: large;
+  width: 200px;
+  position: relative;
+  padding: 8px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-top-width: 0px;
+  -webkit-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;  
+  font-weight: 500;
+  color: rgba(0,0,0,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
+
+l {
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 200PX;
+    position: relative;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.125);
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-color: #33c829;
+}
+
+m {
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font-size: large;
+  width: 200px;
+  position: relative;
+  padding: 8px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-top-width: 0px;
+  -webkit-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;  
+  font-weight: 500;
+  color: rgba(0,0,0,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
